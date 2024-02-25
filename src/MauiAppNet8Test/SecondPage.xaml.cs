@@ -2,11 +2,11 @@
 
 namespace MauiAppNet8Test
 {
-    public partial class MainPage : ContentPage
+    public partial class SecondPage : ContentPage
     {
         int count = 0;
 
-        public MainPage(MainPageViewModel viewModel)
+        public SecondPage(MainPageViewModel viewModel)
         {
             InitializeComponent();
             // https://learn.microsoft.com/en-us/dotnet/architecture/maui/dependency-injection#resolution

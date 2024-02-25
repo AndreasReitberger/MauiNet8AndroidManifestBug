@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34112.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppNet8Test", "MauiAppNet8Test\MauiAppNet8Test.csproj", "{D8B01AF6-EC94-4556-B770-03B04B197DA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiAppNet8Test", "MauiAppNet8Test\MauiAppNet8Test.csproj", "{D8B01AF6-EC94-4556-B770-03B04B197DA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedMauiCoreLibrary", "D:\VS\GitHub\SharedMauiCoreLibrary\src\SharedMauiCoreLibrary\SharedMauiCoreLibrary.csproj", "{3C29F921-DBE5-420E-B567-FFBF7CB2C565}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedMauiXamlStylesLibrary", "D:\VS\GitHub\SharedMauiXamlStyles\src\SharedMauiXamlStylesLibrary\SharedMauiXamlStylesLibrary.csproj", "{D2978560-B2C9-495A-B912-CB8E79122688}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedMauiXamlStylesLibrary.Syncfusion", "D:\VS\GitHub\SharedMauiXamlStyles\src\SharedMauiXamlStylesLibrary.Syncfusion\SharedMauiXamlStylesLibrary.Syncfusion.csproj", "{210CAC45-26F3-4ACE-B56C-F34BAA5C4DBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +23,18 @@ Global
 		{D8B01AF6-EC94-4556-B770-03B04B197DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8B01AF6-EC94-4556-B770-03B04B197DA8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D8B01AF6-EC94-4556-B770-03B04B197DA8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3C29F921-DBE5-420E-B567-FFBF7CB2C565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C29F921-DBE5-420E-B567-FFBF7CB2C565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C29F921-DBE5-420E-B567-FFBF7CB2C565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C29F921-DBE5-420E-B567-FFBF7CB2C565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2978560-B2C9-495A-B912-CB8E79122688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2978560-B2C9-495A-B912-CB8E79122688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2978560-B2C9-495A-B912-CB8E79122688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2978560-B2C9-495A-B912-CB8E79122688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210CAC45-26F3-4ACE-B56C-F34BAA5C4DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210CAC45-26F3-4ACE-B56C-F34BAA5C4DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210CAC45-26F3-4ACE-B56C-F34BAA5C4DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210CAC45-26F3-4ACE-B56C-F34BAA5C4DBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

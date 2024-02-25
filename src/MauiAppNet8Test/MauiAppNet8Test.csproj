@@ -56,9 +56,30 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0-rc.1.23419.4" />
+		<PackageReference Include="Syncfusion.Maui.Core" Version="23.1.36" />
+		<PackageReference Include="Syncfusion.Maui.Inputs" Version="23.1.36" />
+		<PackageReference Include="Syncfusion.Maui.TabView" Version="23.1.36" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="D:\VS\GitHub\SharedMauiCoreLibrary\src\SharedMauiCoreLibrary\SharedMauiCoreLibrary.csproj" />
+	  <ProjectReference Include="D:\VS\GitHub\SharedMauiXamlStyles\src\SharedMauiXamlStylesLibrary.Syncfusion\SharedMauiXamlStylesLibrary.Syncfusion.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="SecondPage.xaml.cs">
+	    <DependentUpon>SecondPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="SecondPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 	<!-- Build Properties must be defined within these property groups to ensure successful publishing
